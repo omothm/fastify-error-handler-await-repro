@@ -1,0 +1,12 @@
+{
+  "name": "fastify-error-handler-await-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "tap --node-arg=--experimental-fetch --node-arg=--no-warnings"
+  },
+  "devDependencies": {
+    "fastify": "^3.29.0",
+    "tap": "^16.1.0"
+  }
+}
